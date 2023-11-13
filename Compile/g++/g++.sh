@@ -1,0 +1,1 @@
+g++ main.cpp src/sum.cpp -I include -o main_g++
