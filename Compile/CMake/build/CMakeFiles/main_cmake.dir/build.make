@@ -60,15 +60,15 @@ include CMakeFiles/main_cmake.dir/flags.make
 CMakeFiles/main_cmake.dir/main.cpp.o: CMakeFiles/main_cmake.dir/flags.make
 CMakeFiles/main_cmake.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main_cmake.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_cmake.dir/main.cpp.o -c /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/main.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_cmake.dir/main.cpp.o -c /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/main.cpp
 
 CMakeFiles/main_cmake.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_cmake.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/main.cpp > CMakeFiles/main_cmake.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/main.cpp > CMakeFiles/main_cmake.dir/main.cpp.i
 
 CMakeFiles/main_cmake.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_cmake.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/main.cpp -o CMakeFiles/main_cmake.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/main.cpp -o CMakeFiles/main_cmake.dir/main.cpp.s
 
 CMakeFiles/main_cmake.dir/main.cpp.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/main_cmake.dir/main.cpp.o.provides.build: CMakeFiles/main_cmake.dir/m
 CMakeFiles/main_cmake.dir/src/sum.cpp.o: CMakeFiles/main_cmake.dir/flags.make
 CMakeFiles/main_cmake.dir/src/sum.cpp.o: ../src/sum.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main_cmake.dir/src/sum.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_cmake.dir/src/sum.cpp.o -c /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/src/sum.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_cmake.dir/src/sum.cpp.o -c /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/src/sum.cpp
 
 CMakeFiles/main_cmake.dir/src/sum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_cmake.dir/src/sum.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/src/sum.cpp > CMakeFiles/main_cmake.dir/src/sum.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/src/sum.cpp > CMakeFiles/main_cmake.dir/src/sum.cpp.i
 
 CMakeFiles/main_cmake.dir/src/sum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_cmake.dir/src/sum.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/src/sum.cpp -o CMakeFiles/main_cmake.dir/src/sum.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/src/sum.cpp -o CMakeFiles/main_cmake.dir/src/sum.cpp.s
 
 CMakeFiles/main_cmake.dir/src/sum.cpp.o.requires:
 
