@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../include/main.h
+iostream
+../include/iostream
+
 /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/main.cpp
 main.h
 /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/main.h
@@ -13,8 +17,4 @@ main.h
 /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/src/sum.cpp
 main.h
 /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/src/main.h
-
-include/main.h
-iostream
-include/iostream
 

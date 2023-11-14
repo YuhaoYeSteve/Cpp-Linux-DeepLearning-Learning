@@ -1,3 +1,0 @@
-/home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/CMakeFiles/rebuild_cache.dir
-/home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/CMakeFiles/main_cmake.dir
-/home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/CMakeFiles/edit_cache.dir
