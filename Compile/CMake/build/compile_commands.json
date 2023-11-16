@@ -1,12 +1,12 @@
 [
 {
   "directory": "/home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/build",
-  "command": "/usr/bin/g++   -I/home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/include  -g   -o CMakeFiles/main_cmake.dir/main.cpp.o -c /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/main.cpp",
+  "command": "/usr/bin/g++   -I/home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/include   -Wall -g   -o CMakeFiles/main_cmake_gdb.dir/main.cpp.o -c /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/main.cpp",
   "file": "/home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/main.cpp"
 },
 {
   "directory": "/home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/build",
-  "command": "/usr/bin/g++   -I/home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/include  -g   -o CMakeFiles/main_cmake.dir/src/sum.cpp.o -c /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/src/sum.cpp",
+  "command": "/usr/bin/g++   -I/home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/include   -Wall -g   -o CMakeFiles/main_cmake_gdb.dir/src/sum.cpp.o -c /home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/src/sum.cpp",
   "file": "/home/ps/C++/Cpp-Linux-DeepLearning-Learning/Compile/CMake/src/sum.cpp"
 }
 ]

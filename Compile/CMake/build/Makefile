@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main_cmake
+# Target rules for targets named main_cmake_gdb
 
 # Build rule for target.
-main_cmake: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main_cmake
-.PHONY : main_cmake
+main_cmake_gdb: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main_cmake_gdb
+.PHONY : main_cmake_gdb
 
 # fast build rule for target.
-main_cmake/fast:
-	$(MAKE) -f CMakeFiles/main_cmake.dir/build.make CMakeFiles/main_cmake.dir/build
-.PHONY : main_cmake/fast
+main_cmake_gdb/fast:
+	$(MAKE) -f CMakeFiles/main_cmake_gdb.dir/build.make CMakeFiles/main_cmake_gdb.dir/build
+.PHONY : main_cmake_gdb/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/main_cmake.dir/build.make CMakeFiles/main_cmake.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/main_cmake_gdb.dir/build.make CMakeFiles/main_cmake_gdb.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/main_cmake.dir/build.make CMakeFiles/main_cmake.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/main_cmake_gdb.dir/build.make CMakeFiles/main_cmake_gdb.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/main_cmake.dir/build.make CMakeFiles/main_cmake.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/main_cmake_gdb.dir/build.make CMakeFiles/main_cmake_gdb.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 src/sum.o: src/sum.cpp.o
@@ -156,7 +156,7 @@ src/sum.o: src/sum.cpp.o
 
 # target to build an object file
 src/sum.cpp.o:
-	$(MAKE) -f CMakeFiles/main_cmake.dir/build.make CMakeFiles/main_cmake.dir/src/sum.cpp.o
+	$(MAKE) -f CMakeFiles/main_cmake_gdb.dir/build.make CMakeFiles/main_cmake_gdb.dir/src/sum.cpp.o
 .PHONY : src/sum.cpp.o
 
 src/sum.i: src/sum.cpp.i
@@ -165,7 +165,7 @@ src/sum.i: src/sum.cpp.i
 
 # target to preprocess a source file
 src/sum.cpp.i:
-	$(MAKE) -f CMakeFiles/main_cmake.dir/build.make CMakeFiles/main_cmake.dir/src/sum.cpp.i
+	$(MAKE) -f CMakeFiles/main_cmake_gdb.dir/build.make CMakeFiles/main_cmake_gdb.dir/src/sum.cpp.i
 .PHONY : src/sum.cpp.i
 
 src/sum.s: src/sum.cpp.s
@@ -174,7 +174,7 @@ src/sum.s: src/sum.cpp.s
 
 # target to generate assembly for a file
 src/sum.cpp.s:
-	$(MAKE) -f CMakeFiles/main_cmake.dir/build.make CMakeFiles/main_cmake.dir/src/sum.cpp.s
+	$(MAKE) -f CMakeFiles/main_cmake_gdb.dir/build.make CMakeFiles/main_cmake_gdb.dir/src/sum.cpp.s
 .PHONY : src/sum.cpp.s
 
 # Help Target
@@ -184,7 +184,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... main_cmake"
+	@echo "... main_cmake_gdb"
 	@echo "... edit_cache"
 	@echo "... main.o"
 	@echo "... main.i"
