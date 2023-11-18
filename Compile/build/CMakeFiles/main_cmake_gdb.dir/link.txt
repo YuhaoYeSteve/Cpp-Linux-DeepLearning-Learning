@@ -1,0 +1,1 @@
+/usr/bin/g++   -Wall -g  -rdynamic CMakeFiles/main_cmake_gdb.dir/main.cpp.o CMakeFiles/main_cmake_gdb.dir/src/sum.cpp.o  -o main_cmake_gdb 

@@ -1,18 +1,17 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
-            "name": "C++ Debug 2023",
+            "name": "C++ 调试(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/main_cmake_gdb",
+            "program": "${workspaceFolder}/release/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
+            "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
@@ -21,18 +20,22 @@
                     "description": "为 gdb 启用整齐打印",
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
+                },
+                {
+                    "description": "将反汇编风格设置为 Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "build",
+            "preLaunchTask": "C/C++: g++ 生成活动文件",
         },
         {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
-            "program": "${file}", // 当前文件
-            // "program": "demo.py", // 指定文件
+            "program": "${file}",
             "console": "integratedTerminal",
-            "justMyCode": true // false表示可以进入第三方库（如Pytorch）里进行调试
+            "justMyCode": true
         }
     ]
 }
