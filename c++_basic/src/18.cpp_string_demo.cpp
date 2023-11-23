@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    // 声明和初始化
+    // // 声明和初始化
     // string s1; // 全部初始化为空
     // string s2 {"hello"}; // 初始化为 hello
     // string s3 {s2}; // 拷贝 s2
@@ -40,22 +40,22 @@ int main()
     // sentence = part1 + " " + part2 + "语言";
     // cout << sentence << endl;
 
-    // // sentence = "C++" + "是一门强大的语言"; // 错误，不能将2个c-style字符串字面量相加
+    // sentence = "C++" + "是一门强大的语言"; // 错误，不能将2个c-style字符串字面量相加
 
 
-    // // 获取字符，更新
-    // string s1 {"Hello"};
-    // // 获取元素
-    // cout << s1[1] << endl; // e
-    // cout << s1.at(2) << endl; // l
+    // 获取字符，更新
+    string s1 {"Hello"};
+    // 获取元素
+    cout << s1[1] << endl; // e
+    cout << s1.at(2) << endl; // l
 
-    // // 重新赋值
-    // s1[1] = 'a'; // Hallo
-    // s1.at(2) = 'X'; // HaXlo
-    // cout << s1 << endl;
+    // 重新赋值
+    s1[1] = 'a'; // Hallo
+    s1.at(2) = 'X'; // HaXlo
+    cout << s1 << endl;
 
 
-    // // 遍历
+    // 遍历
     // string s1 {"Hello"};
     // for(auto c: s1){ // 可以使用char或auto
     //     cout << c << endl;

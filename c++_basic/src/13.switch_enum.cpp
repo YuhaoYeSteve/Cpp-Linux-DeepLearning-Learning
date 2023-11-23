@@ -13,6 +13,8 @@ int main()
         case yellow:
             cout << "黄灯" << endl;
             break;
+        case green:
+            cout << "绿灯" << endl;
         default: // 必须加上default，否则编译器会警告
             cout << "ok" << endl;
     }

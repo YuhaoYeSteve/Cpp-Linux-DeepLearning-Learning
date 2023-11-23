@@ -5,12 +5,12 @@ using namespace std;
 
 int main()
 {
-    // 全部初始化为空
-    char first_name [20] {};
-    char last_name [20] {};
+    // // 全部初始化为空
+    // char first_name [20] {};
+    // char last_name [20] {};
     char full_name [50] {};
     char temp [50] {};
-
+ 
     // // 用户输入
     // cout << "请输入您的姓：";
     // cin >> first_name;
@@ -23,8 +23,12 @@ int main()
 
     // // 拼接名字
     // strcpy(full_name, first_name); // 拷贝 first_name 到 full_name
+    // cout << "您的全名是：" << full_name << endl;
     // strcat(full_name, " "); // 拼接空格
+    // cout << "您的全名是：" << full_name << endl;
     // strcat(full_name, last_name); // 拼接 last_name
+    // cout << "您的全名是：" << full_name << endl;
+    // strcat(first_name, last_name);
     // cout << "您的全名是：" << full_name << endl;
 
 
@@ -42,26 +46,34 @@ int main()
     cout << "您的全名是：" << full_name << endl;
 
 
-    cout << "----------------------------------------" << endl;
-    // 比较字符串
-    strcpy(temp, full_name); // 拷贝 full_name 到 temp
+    // cout << "----------------------------------------" << endl;
+    // // 比较字符串
+    // strcpy(temp, full_name); // 拷贝 full_name 到 temp
 
-    if (strcmp(temp, full_name) == 0) // 比较 temp 和 full_name
+    // if (strcmp(temp, full_name) == 0) // 比较 temp 和 full_name
 
-        cout << temp << " 和 " << full_name << " 是相同的" << endl;
-    else
-        cout << temp << " 和 " << full_name << " 是不同的" << endl;
+    //     cout << temp << " 和 " << full_name << " 是相同的" << endl;
+    // else
+    //     cout << temp << " 和 " << full_name << " 是不同的" << endl;
 
 
     cout << "----------------------------------------" << endl;
     // 将字符串转换为大写
-    for(size_t i {0}; i < strlen(full_name); i++){
-        if (isalpha(full_name[i])){ // 判断是否是字母
-            full_name[i] = toupper(full_name[i]); // 转换为大写
-        }else{
-            full_name[i] = '*';
-        }
+    // for(size_t i {0}; i < strlen(full_name); i++){
+    //     if (isalpha(full_name[i])){ // 判断是否是字母
+    //         full_name[i] = toupper(full_name[i]); // 转换为大写
+    //     }else{
+    //         full_name[i] = '*';
+    //     }
         
+    // }
+    for(auto &character : full_name){
+        if(isalpha(character)){
+            character = toupper(character);
+        }
+        else{
+            character = '*';
+        }
     }
     cout << full_name << endl;
 
